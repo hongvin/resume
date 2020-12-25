@@ -44,6 +44,12 @@
         <span>If you found this useful, please consider contributing by buy me a coffee or contributing to the repo. Or, just spread the words!</span>
         <vs-divider/>
         <span>Click print to save as PDF.</span>
+        <vs-divider/>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/khvmaths/resume" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" aria-label="Star khvmaths/resume on GitHub">Star</a>
+        <!-- Place this tag where you want the button to render. -->
+        <span> </span>
+<a class="github-button" href="https://github.com/khvmaths" data-color-scheme="no-preference: light; light: light; dark: dark;" aria-label="Follow @khvmaths on GitHub">Follow @khvmaths</a>
       </div>
     </vs-card>
   </vs-col>
