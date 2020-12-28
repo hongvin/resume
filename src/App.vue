@@ -23,6 +23,7 @@
     <div class="actions">
       <div>
         <vs-row>
+          <img :src="require(`@/assets/MESA.png`)" style="width:100%"/>
     <label style="margin-right:12px;">Enable Dark mode</label>
     <vs-switch color="dark" v-model="darkMode" />
     </vs-row>
@@ -31,7 +32,7 @@
       <vs-button color="primary" id="button-margin" type="border" @click="print"
         >Print</vs-button
       >
-      <a href="https://www.buymeacoffee.com/hongvin" target="_blank">
+      <!-- <a href="https://www.buymeacoffee.com/hongvin" target="_blank">
         <img
           src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
           alt="Buy Me A Coffee"
@@ -40,7 +41,7 @@
             height: 30px !important;
             width: 100px !important;
           "
-      /></a>
+      /></a> -->
 
       <div class="info-card">
         <vs-row vs-justify="center">
@@ -68,6 +69,7 @@
                 <span>Click print to save as PDF.</span>
                 <hr class="solid line-c" />
                 <!-- Place this tag where you want the button to render. -->
+                <span>Follow the Github project:</span>
                 <a
                   class="github-button"
                   href="https://github.com/khvmaths/resume"
