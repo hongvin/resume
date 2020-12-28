@@ -1,4 +1,4 @@
-# Resume builder
+# Resume builder (customized for MESA)
 
 [![DeepSource](https://deepsource.io/gh/khvmaths/resume.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/khvmaths/resume/?ref=repository-badge)
 ![CodeInspector](https://www.code-inspector.com/project/17315/status/svg)
@@ -27,4 +27,5 @@ npm run dev
 npm run build
 
 # build for production and view the bundle analyzer report
-npm run build --report```
+npm run build --report
+```
